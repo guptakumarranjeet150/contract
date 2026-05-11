@@ -208,9 +208,6 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
                 },
                 {
-                  "string": "My Campaign"
-                },
-                {
                   "i128": "10000"
                 },
                 {
@@ -222,32 +219,15 @@
                 {
                   "vec": [
                     {
-                      "vec": [
-                        {
-                          "string": "MVP"
-                        },
-                        {
-                          "u32": 5000
-                        }
-                      ]
+                      "u32": 5000
                     },
                     {
-                      "vec": [
-                        {
-                          "string": "Beta"
-                        },
-                        {
-                          "u32": 5000
-                        }
-                      ]
+                      "u32": 5000
                     }
                   ]
                 },
                 {
                   "i128": "100"
-                },
-                {
-                  "bool": false
                 }
               ]
             }
@@ -970,14 +950,6 @@
                   },
                   {
                     "key": {
-                      "symbol": "metadata_cid"
-                    },
-                    "val": {
-                      "string": "My Campaign"
-                    }
-                  },
-                  {
-                    "key": {
                       "symbol": "milestone_count"
                     },
                     "val": {
@@ -1010,20 +982,12 @@
                   },
                   {
                     "key": {
-                      "symbol": "refund_progress"
-                    },
-                    "val": {
-                      "u32": 0
-                    }
-                  },
-                  {
-                    "key": {
                       "symbol": "status"
                     },
                     "val": {
                       "vec": [
                         {
-                          "symbol": "Draft"
+                          "symbol": "Submitted"
                         }
                       ]
                     }
@@ -1065,14 +1029,6 @@
               "durability": "persistent",
               "val": {
                 "map": [
-                  {
-                    "key": {
-                      "symbol": "description"
-                    },
-                    "val": {
-                      "string": "MVP"
-                    }
-                  },
                   {
                     "key": {
                       "symbol": "flagged_at"
@@ -1140,14 +1096,6 @@
               "durability": "persistent",
               "val": {
                 "map": [
-                  {
-                    "key": {
-                      "symbol": "description"
-                    },
-                    "val": {
-                      "string": "Beta"
-                    }
-                  },
                   {
                     "key": {
                       "symbol": "flagged_at"
